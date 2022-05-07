@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import AddSong from "./components/AddSong";
 import SongDetail from "./components/SongDetail";
 import SongList from "./components/SongList";
-function App(props) {
+function App() {
   const [show, setShow] = useState(false);
-
   return (
     <>
       <button
