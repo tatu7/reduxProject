@@ -1,8 +1,13 @@
-const selectSong = (obj) => {
+export const selectSong = (obj) => {
   return {
     type: "SELECTOR",
     payload: obj,
   };
 };
 
-export default selectSong;
+export const addSongAction = (data) => {
+  return {
+    type: "ADD",
+    payload: data,
+  };
+};
